@@ -1,0 +1,42 @@
+htmls {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*,
+*::before *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--background-color);
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--text-color);
+}
+
+h1,
+h2,
+h3 {
+  font-weight: 700px;
+  line-height: 1.1;
+  margin-top: 0;
+}
+
+p {
+  margin-top: 0;
+}
+
+a,
+a:visited,
+a:active {
+  text-decoration: none;
+}
+
+:root {
+  --background-color: hsl(60, 56%, 91%);
+  --text-color: hsl(0, 0%, 100%);
+}
+
+/*does this work*/ /*# sourceMappingURL=style.css.map */
